@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @SpringBootApplication
-@RestController
 public class IndatacoreBackendApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
@@ -18,10 +17,7 @@ public class IndatacoreBackendApplication extends SpringBootServletInitializer {
     }
 
 
-    @GetMapping("say-hi")
-    public String getMessage(){
-        return "Hy";
-    }
+
 
 
 
